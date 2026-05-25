@@ -13,7 +13,8 @@
     "@fontsource/cormorant-garamond": "^5.2.11",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
-    "react-intersection-observer": "^10.0.3"
+    "react-intersection-observer": "^10.0.3",
+    "react-router-dom": "^7.15.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

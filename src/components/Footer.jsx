@@ -1,6 +1,15 @@
+import { Link } from 'react-router-dom';
+
 export default function Footer() {
-  const navLinks = ['#doctor', '#treatment', '#process', '#results', '#services', '#testimonials', '#booking'];
-  const navLabels = ['Dr. Matla', 'About PRP', 'The Process', 'Results', 'Treatments', 'Clients', 'Book Now'];
+  const navItems = [
+    { label: 'Dr. Matla', href: '/#doctor' },
+    { label: 'Treatments', to: '/treatments' },
+    { label: 'Conditions', to: '/conditions' },
+    { label: 'The Process', href: '/#process' },
+    { label: 'Results', href: '/#results' },
+    { label: 'FAQ', to: '/faq' },
+    { label: 'Book Now', href: '/#booking' },
+  ];
 
   const treatments = [
     'Facial Rejuvenation', 'Skin Rejuvenation', 'Under Eye Revitalisation',
@@ -15,7 +24,7 @@ export default function Footer() {
       <div className="wrap">
         <div className="footer-grid">
           <div>
-            <div className="f-brand">PRP Treatment</div>
+            <Link to="/" className="f-brand" style={{ textDecoration: 'none' }}>PRP Treatment</Link>
             <div className="f-sub">by Dr. Matla — Harley Street, London</div>
             <div className="gd" />
             <p className="f-copy">
@@ -31,15 +40,17 @@ export default function Footer() {
 
           <div>
             <div className="f-hd">Navigate</div>
-            {navLabels.map((l, i) => (
-              <a key={l} href={navLinks[i]} className="f-lnk">{l}</a>
-            ))}
+            {navItems.map(item =>
+              item.to
+                ? <Link key={item.label} to={item.to} className="f-lnk">{item.label}</Link>
+                : <a key={item.label} href={item.href} className="f-lnk">{item.label}</a>
+            )}
           </div>
 
           <div>
             <div className="f-hd">Treatments</div>
             {treatments.map(t => (
-              <a key={t} href="#services" className="f-lnk">{t}</a>
+              <Link key={t} to="/treatments" className="f-lnk">{t}</Link>
             ))}
           </div>
 
