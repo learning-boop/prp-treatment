@@ -35,11 +35,11 @@ export default defineConfig({
     rollupOptions: {
       output: {
         // Manual chunk splitting for optimal caching
-        manualChunks: {
-          'react-vendor': ['react', 'react-dom'],
-          'router':       ['react-router-dom'],
-          'analytics':    ['web-vitals'],
-        },
+        // manualChunks: {
+        //   'react-vendor': ['react', 'react-dom'],
+        //   'router':       ['react-router-dom'],
+        //   'analytics':    ['web-vitals'],
+        // },
 
         // Cache-busting filenames
         chunkFileNames:  'assets/js/[name]-[hash].js',
