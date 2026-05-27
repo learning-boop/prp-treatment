@@ -32,22 +32,7 @@ export default defineConfig({
     // Asset inlining threshold (files smaller than this are inlined as base64)
     assetsInlineLimit: 4096,
 
-    rollupOptions: {
-      output: {
-        // Manual chunk splitting for optimal caching
-        // manualChunks: {
-        //   'react-vendor': ['react', 'react-dom'],
-        //   'router':       ['react-router-dom'],
-        //   'analytics':    ['web-vitals'],
-        // },
-
-        // Cache-busting filenames
-        chunkFileNames:  'assets/js/[name]-[hash].js',
-        entryFileNames:  'assets/js/[name]-[hash].js',
-        assetFileNames:  'assets/[ext]/[name]-[hash].[ext]',
-      },
-    },
-
+   
     // Source maps for production debugging (disable if security concern)
     sourcemap: false,
 
