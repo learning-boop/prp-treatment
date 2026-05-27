@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ── HOMEPAGE (Priority 1.0) ──────────────────────────────────────── -->
+  <url>
+    <loc>https://prptreatment.uk/</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-gb" href="https://prptreatment.uk/" />
+    <image:image>
+      <image:loc>https://prptreatment.uk/assets/og-image.jpg</image:loc>
+      <image:title>PRP Treatment Newcastle — Dr Matla Aesthetics</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── HIGH-PRIORITY TREATMENT PAGES (Priority 0.9) ────────────────── -->
+  <url>
+    <loc>https://prptreatment.uk/prp-hair-treatment-newcastle</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://prptreatment.uk/assets/og-prp-hair.jpg</image:loc>
+      <image:title>PRP Hair Treatment Newcastle</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/vampire-facial-newcastle</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://prptreatment.uk/assets/og-vampire-facial.jpg</image:loc>
+      <image:title>Vampire Facial Newcastle</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/prp-facial-newcastle</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://prptreatment.uk/assets/og-prp-facial.jpg</image:loc>
+      <image:title>PRP Facial Newcastle</image:title>
+    </image:image>
+  </url>
+
+  <!-- ── MID-PRIORITY TREATMENT PAGES (Priority 0.8) ─────────────────── -->
+  <url>
+    <loc>https://prptreatment.uk/prp-under-eye-newcastle</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/prp-skin-rejuvenation-uk</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/prp-microneedling-newcastle</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/prp-hair-loss-treatment</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/platelet-rich-plasma-uk</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ── GENERAL PAGES (Priority 0.7–0.6) ─────────────────────────────── -->
+  <url>
+    <loc>https://prptreatment.uk/treatments</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/conditions</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/faq</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/about</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/contact</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ── FAQ TOPIC PAGES (Priority 0.6–0.5) ───────────────────────────── -->
+  <url>
+    <loc>https://prptreatment.uk/faq/prp-treatment-questions</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/faq/hair-loss-questions</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/faq/facial-rejuvenation-questions</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/faq/vampire-facial-questions</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/faq/skin-tightening-questions</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/faq/acne-scar-questions</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/faq/cost-pricing</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/faq/safety-recovery</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://prptreatment.uk/faq/treatment-comparisons</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>

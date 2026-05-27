@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# robots.txt — PRP Treatment UK (prptreatment.uk)
+#
+# Directs all crawlers to index all public content.
+# Explicitly blocks build artifacts, CMS internals and staging paths.
+# ─────────────────────────────────────────────────────────────────────────────
+
+User-agent: *
+Allow: /
+
+# Block build artifacts and non-public paths
+Disallow: /assets/raw/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /_next/
+Disallow: /static/chunks/
+Disallow: /api/
+
+# Block staging subdomain from indexing (belt-and-suspenders with noindex meta)
+User-agent: *
+Disallow: /staging/
+
+# Crawl-delay for aggressive bots
+User-agent: MJ12bot
+Crawl-delay: 10
+
+User-agent: AhrefsBot
+Crawl-delay: 5
+
+User-agent: SemrushBot
+Crawl-delay: 5
+
+# ── Sitemaps ────────────────────────────────────────────────────────────────
+Sitemap: https://prptreatment.uk/sitemap.xml
+Sitemap: https://prptreatment.uk/sitemap-images.xml

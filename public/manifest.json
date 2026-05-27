@@ -1,0 +1,67 @@
+{
+  "name": "PRP Treatment UK — Dr Matla Aesthetics",
+  "short_name": "PRP Treatment",
+  "description": "Doctor-led PRP treatment in Newcastle — hair restoration, Vampire Facial and skin rejuvenation by Dr Matla.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "theme_color": "#c9a96e",
+  "lang": "en-GB",
+  "scope": "/",
+  "orientation": "portrait-primary",
+  "categories": ["health", "medical", "beauty"],
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "apple touch icon"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/screenshot-home.jpg",
+      "type": "image/jpeg",
+      "sizes": "1280x800",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Book Consultation",
+      "short_name": "Book",
+      "description": "Book a PRP consultation with Dr Matla",
+      "url": "/#booking",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "PRP Hair Treatment",
+      "short_name": "Hair PRP",
+      "description": "PRP hair loss treatment Newcastle",
+      "url": "/prp-hair-treatment-newcastle",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
